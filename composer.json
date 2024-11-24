@@ -1,0 +1,21 @@
+{
+    "name": "nelwhix/client-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nelwhix\\ClientPHP\\": "src/",
+            "": "chat/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelson Isioma",
+            "email": "nelsonisioma1@gmail.com"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.28",
+        "illuminate/collections": "^11.33"
+    }
+}
