@@ -15,7 +15,6 @@
     ],
     "require": {
         "grpc/grpc": "^1.57",
-        "google/protobuf": "^4.28",
-        "illuminate/collections": "^11.33"
+        "google/protobuf": "^4.28"
     }
 }
